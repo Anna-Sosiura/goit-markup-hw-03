@@ -1,0 +1,255 @@
+:root {
+    --logo-web-color: #4D5AE5;
+}
+
+:root {
+    --title-color: #2E2F42;
+}
+
+:root {
+    --paragraph-color: #434455;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: var(--paragraph-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-web-color);
+    text-transform: uppercase
+}
+
+.link {
+    text-decoration: none
+}
+
+.header-logo .studio {
+    color: var(--title-color);
+}
+
+.header-list {}
+
+.list {
+    list-style: none
+}
+
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal
+}
+
+.address-list {}
+
+.address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+
+.hero {
+    background: var(--title-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+.qualities {}
+
+.qualities-title {}
+
+.qualities-list {}
+
+.qualities-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.qualities-item-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+
+.actions {}
+
+.actions-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.actions-list {}
+
+.actions-item {}
+
+.team {
+    background: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+.team-list {
+    background-color: #FFFFFF
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.team-item-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-web-color);
+}
+
+.footer-logo .studio {
+    color: #F4F4FD;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.menu {}
+
+.menu-navigation-list {}
+
+.menu-navigation-item {}
+
+.menu-navigation-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.menu-navigation-btn:hover,
+.menu-navigation-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.menu-list {}
+
+.menu-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.menu-item-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
