@@ -52,8 +52,6 @@ img {
     max-width: 1440px;
     margin: 0 auto;
     outline: 2px solid red;
-    width: 1158px;
-    padding: 0 15px 0 15px;
 }
 
 .header {
@@ -66,6 +64,8 @@ img {
     display: flex;
     align-items: center;
     padding: 0 156px;
+    width: 1158px;
+    padding: 0 15px 0 15px;
 }
 
 .header-navigation {
@@ -145,12 +145,6 @@ img {
     color: #404bbf;
 }
 
-.mail {
-    padding-right: 40px;
-}
-
-.phone {}
-
 .hero {
     background: var(--title-color);
     height: 600px;
@@ -207,6 +201,20 @@ img {
 
 .hidden {
     visibility: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .qualities-list {
